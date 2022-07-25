@@ -1,4 +1,4 @@
-import keras
+from tensorflow import keras
 import numpy as np
 
 model = keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
